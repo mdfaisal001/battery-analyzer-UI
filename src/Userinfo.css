@@ -1,0 +1,90 @@
+.work-div{
+    height:60px;
+    width:300px;
+    background-color:#ff944d;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    position:relative;
+    overflow: hidden;
+    transition: 0.3s;
+    cursor: pointer;
+    
+    
+}
+.userlayout{
+    margin-left: 20px;
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+
+}
+.info1{
+    display:flex;
+    justify-content: space-between;
+    align-items:baseline;   
+}
+.work-info{
+    height:160px;
+    background-color:#000066;
+    margin-top: -10px;
+    border-radius: 12px;
+    position:static;
+    z-index: 1;
+    cursor: pointer;
+   
+}
+.work-info:hover {
+    background-color:#000066;
+    opacity :0.8;
+}
+.work-info:active {
+    opacity:0.3s;
+}
+.work-image{
+    height:70px;
+    margin-left: 160px;
+    object-fit: cover;
+   
+    
+   
+}
+.detail1{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:900;
+    letter-spacing: 1px;
+    color:white;
+    margin-left: 40px;
+    margin-top: 20px;
+   
+}
+.ellipsis-img{
+    color:white;
+    height: 4px;
+    margin-left: -40px;
+    margin-top: 20px;
+   
+    
+}
+.detail2{
+    font-size: 45px;
+    font-family: 'Dosis', sans-serif;
+    font-weight:900;
+    letter-spacing: 4px;
+    color: white;
+    margin-left: 40px;
+    margin-top: -3px;
+  
+}
+.detail3{
+    margin-left: 40px;
+    color: gray;
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    margin-top: -30px;
+    cursor: pointer;
+
+}
